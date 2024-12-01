@@ -4,11 +4,7 @@ namespace App\Actions;
 
 class GenerateProductVariant
 {
-    /**
-     * Generate product variation based on inputs
-     * @param  array  $input
-     * @return array
-     */
+    
     public static function handle(array $input): array
     {
         if (! count($input)) return [];
